@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color:blanchedalmond;
+}
+h1{
+text-align: center;
+font-family: poppins;
+text-decoration: underline;
+font-weight: 400;
+
+  
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10%;
+ 
+}
+button{
+    margin-top: 35px;
+padding: 10px 10px;
+border: none;
+background-color: rgb(112, 68, 43);
+text-decoration: none;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.5s;
+color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgb(219, 200, 148);
+translate: 10px;
+
+}
+input::placeholder{
+border-radius: 10px;
+padding: 50px 50px;
+border:none;
+}
+#taskinput{
+    padding: 5px;
+border-radius: 10px;
+border-color: bisque;
+
+}

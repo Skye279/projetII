@@ -31,10 +31,10 @@ border-radius: 10px;
 cursor: pointer;
 transition: 0.5s;
 color: rgb(255, 255, 255);
+transform: scale(180deg);
 }
 button:hover{
     background-color: rgb(219, 200, 148);
-translate: 10px;
 
 }
 input::placeholder{

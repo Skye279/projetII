@@ -3,7 +3,7 @@ body{
     background-color:blanchedalmond;
 }
 h1{
-text-align: center;
+    text-align: center;
 font-family: poppins;
 text-decoration: underline;
 font-weight: 400;
@@ -31,14 +31,13 @@ border-radius: 10px;
 cursor: pointer;
 transition: 0.5s;
 color: rgb(255, 255, 255);
-transform: scale(180deg);
 }
 button:hover{
     background-color: rgb(219, 200, 148);
 
 }
 input::placeholder{
-border-radius: 10px;
+    border-radius: 10px;
 padding: 50px 50px;
 border:none;
 }
@@ -46,5 +45,6 @@ border:none;
     padding: 5px;
 border-radius: 10px;
 border-color: bisque;
+
 
 }
